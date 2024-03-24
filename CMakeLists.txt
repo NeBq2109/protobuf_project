@@ -34,5 +34,4 @@ install(FILES $<TARGET_FILE:protobuf::libprotobuf>
   DESTINATION bin
   )
 
-install(TARGETS protobuf_reader DESTINATION bin)
-install(TARGETS protobuf_writer DESTINATION bin)
+install(TARGETS protobuf_writer protobuf_reader DESTINATION bin)
